@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "data-sky"
+version = "0.1.0"
+description = ""
+authors = ["info <info@data-sky.net>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<3.10"
+ifaddr = "^0.1.6"
+cookiecutter = "^1.7.0"
+questionary = "1.9.0"
+python-dotenv = "^0.11.0"
+click = "^7.0"
+pandas = "0.25.2"
+tqdm = "4.28.1"
+sshtunnel = "^0.1.5"
+pymongo = "^3.11.4"
+cloudpickle="^1.6.0"
+arctic="1.79.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-mock = "^2.0.0"
+callee = "^0.3.1"
+pylint = "2.4.4"
+GitPython = "3.1.9"
+
+[tool.poetry.scripts]
+data-sky = "data-sky.console.main:cli"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

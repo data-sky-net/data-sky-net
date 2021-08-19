@@ -1,0 +1,15 @@
+[submodule "data-sky/project_template/{{cookiecutter.project_name}}/modules/evaluation_tools"]
+	path = data-sky/project_template/{{cookiecutter.project_name}}/modules/evaluation_tools
+	url = ../../IDCP/evaluation_tools.git
+[submodule "data-sky/project_template/{{cookiecutter.project_name}}/modules/toolkit_cli"]
+	path = data-sky/project_template/{{cookiecutter.project_name}}/modules/toolkit_cli
+	url = ../../IDCP/toolkit_cli.git
+[submodule "tests/pylint_test"]
+	path = tests/pylint_test
+	url = ../../IDCP/pylint_test.git
+[submodule "tests/version_test"]
+	path = tests/version_test
+	url = ../../IDCP/version_test.git
+[submodule "data-sky/console/commands/toolkit_cli"]
+	path = data-sky/console/commands/toolkit_cli
+	url = ../../IDCP/toolkit_cli.git

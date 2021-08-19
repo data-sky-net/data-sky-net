@@ -1,0 +1,8 @@
+[IGNORED]
+
+ignore_list =   data-sky/project_template/**,
+                data-sky/__init__.py,
+                data-sky/console/main.py,
+                data-sky/console/console_utils/checks.py,
+                data-sky/console/commands/sample_command/*,
+                data-sky/console/commands/sample_meta/**

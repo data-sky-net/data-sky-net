@@ -1,0 +1,12 @@
+.DS_Store
+dist/
+.venv/
+venv/
+.idea/
+tmp/
+*.egg-info
+__pycache__/
+.pytest_cache/
+.vscode
+Pipfile
+Pipfile.lock

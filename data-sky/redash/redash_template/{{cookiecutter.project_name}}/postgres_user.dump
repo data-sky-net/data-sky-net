@@ -1,0 +1,42 @@
+--
+-- Data for Name: organizations; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.organizations (updated_at, created_at, id, name, slug, settings) FROM stdin;
+2020-05-15 14:09:44.042875+00	2020-05-15 14:05:40.112328+00	1	skoltech	default	{}
+\.
+
+--
+-- Name: organizations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.organizations_id_seq', 1, true);
+
+--
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.users (updated_at, created_at, id, org_id, name, email, profile_image_url, password_hash, groups, api_key, disabled_at, details) FROM stdin;
+2020-05-15 14:09:44.042875+00	2020-05-15 14:05:40.204598+00	1	1	admin	admin@example.com	\N	$6$rounds=97120$yWzeNk4EuIhmpHtA$PVZIaAOd0cEeVi5WKarZIdlp2k4muIkf94SfjDkR0N8CdWKBsxy38mi9cWqbbl8mvZS8R2G1X2O1Jx1nv916n0	{1,2}	JUUiVp2zjRSmpgLm146YRkdUl1MN6sTHrF5me0Pl	\N	{"active_at": "2020-05-15T14:09:14Z"}
+\.
+
+--
+-- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.users_id_seq', 1, true);
+
+--
+-- Data for Name: groups; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.groups (id, org_id, type, name, permissions, created_at) FROM stdin;
+1	1	builtin	admin	{admin,super_admin}	2020-05-15 14:05:40.112328+00
+2	1	builtin	default	{create_dashboard,create_query,edit_dashboard,edit_query,view_query,view_source,execute_query,list_users,schedule_query,list_dashboards,list_alerts,list_data_sources}	2020-05-15 14:05:40.112328+00
+\.
+
+--
+-- Name: groups_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.groups_id_seq', 2, true);

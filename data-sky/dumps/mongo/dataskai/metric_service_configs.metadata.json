@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"data-sky.metric_service_configs"}],"uuid":"141a546eb9864bd4b9ed5c5c1b8ffabb"}

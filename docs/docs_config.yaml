@@ -1,0 +1,3 @@
+id: ds_project_deploy_wizard
+name: Project Wizard
+annotation: A command line wizard for rapid data-sky project deployment.

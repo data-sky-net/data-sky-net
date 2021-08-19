@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"data-sky.target_loader_configs"}],"uuid":"6cc2aaec693e46b7994d2c4aa75c9eba"}

@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "module": "sample_command.sample_command",
+      "class_name": "SampleCommand"
+    },
+    {
+      "module": "sample_command.sample_command",
+      "class_name": "SampleCommand2"
+    }
+  ]
+}

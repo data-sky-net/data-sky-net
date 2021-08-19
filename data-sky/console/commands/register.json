@@ -1,0 +1,80 @@
+{
+    "commands": [
+        {
+            "class_name": "DbSetup",
+            "module": "commands.toolkit_cli.scripts.wizard_command_db_setup.wizard_db_setup_command"
+        },
+        {
+            "class_name": "NewTask",
+            "module": "commands.toolkit_cli.scripts.wizard_task_new_command.wizard_task_new_command"
+        },
+        {
+            "class_name": "ProjectNew",
+            "module": "commands.toolkit_cli.scripts.wizard_project_new_command.wizard_project_new_command"
+        },
+        {
+            "class_name": "TargetBuild",
+            "module": "commands.toolkit_cli.scripts.target_command.target_build"
+        },
+        {
+            "class_name": "ServiceRestart",
+            "module": "commands.toolkit_cli.scripts.service_command.service_restart"
+        },
+        {
+            "class_name": "ServiceStart",
+            "module": "commands.toolkit_cli.scripts.service_command.service_start"
+        },
+        {
+            "class_name": "ServiceStop",
+            "module": "commands.toolkit_cli.scripts.service_command.service_stop"
+        },
+        {
+            "class_name": "ServiceStatus",
+            "module": "commands.toolkit_cli.scripts.service_command.service_status"
+        },
+        {
+            "class_name": "ProjectStart",
+            "module": "commands.toolkit_cli.scripts.wizard_project_start_command.wizard_project_start_command"
+        },
+        {
+            "class_name": "FactoryNew",
+            "module": "commands.toolkit_cli.scripts.factory_new_command.factory_new"
+        },
+        {
+            "class_name": "RedashRegister",
+            "module": "commands.toolkit_cli.scripts.wizard_redash_command.wizard_redash_register_command"
+        },
+        {
+            "class_name": "RedashInit",
+            "module": "commands.toolkit_cli.scripts.wizard_redash_command.wizard_redash_init_command"
+        },
+        {
+            "class_name": "RedashSetup",
+            "module": "commands.toolkit_cli.scripts.wizard_redash_command.wizard_redash_setup_command"
+        },
+        {
+            "class_name": "ProjectRestart",
+            "module": "commands.toolkit_cli.scripts.wizard_project_restart_command.wizard_project_restart_command"
+        },
+        {
+            "class_name": "FactoryRegister",
+            "module": "commands.toolkit_cli.scripts.factory_register_command.factory_register"
+        },
+        {
+            "class_name": "ProjectStop",
+            "module": "commands.toolkit_cli.scripts.wizard_project_stop_command.wizard_project_stop_command"
+        },
+        {
+            "class_name": "SampleCommand",
+            "module": "commands.sample_command.sample_command"
+        },
+        {
+            "class_name": "SampleCommand2",
+            "module": "commands.sample_command.sample_command"
+        },
+        {
+            "class_name": "DatasetPush",
+            "module": "commands.toolkit_cli.scripts.dataset_push_command.dataset_push"
+        }
+    ]
+}

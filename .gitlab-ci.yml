@@ -1,0 +1,16 @@
+image: docker-registry.iot.10.30.16.181.xip.io/docker-iot:1.4
+
+variables:
+    DOCKER_DRIVER: "overlay2"
+    DOCKER_HOST: "10.30.16.181:2375"
+    GIT_SUBMODULE_STRATEGY: recursive
+    GIT_STRATEGY: clone
+
+stages:
+    - testing
+
+run_unittests:
+    stage: testing
+    script:
+        - ./docker_scripts/build_docker_image_testing.sh
+        - ./docker_scripts/run_docker_container_testing.sh
